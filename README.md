@@ -8,7 +8,7 @@ This repository contains the core algorithms for the Hybrid CRE protocol, includ
 
 ## 📖 Related Publication
 The theoretical and philosophical foundations of this protocol are detailed in:
-* **White Paper:** 10.5281/zenodo.18521109
+* **White Paper:** /10.5281/zenodo.18523702
 * **Book:** *Algorithmic Constitutionalism* (Rey, G., Forthcoming 2026).
 
 ## ⚖️ Intellectual Property Notice
