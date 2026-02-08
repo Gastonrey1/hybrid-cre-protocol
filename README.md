@@ -13,3 +13,4 @@ The theoretical and philosophical foundations of this protocol are detailed in:
 
 ## ⚖️ Intellectual Property Notice
 The jurisdictional architecture, the SIS/ATC algorithms, and the "Habeas Log" concept are the intellectual property of **Gaston Rey**. This reference implementation is provided under the **Apache License 2.0**, which includes explicit protections for patent rights and copyright preservation.
+email gastonrey76@gmail.com
