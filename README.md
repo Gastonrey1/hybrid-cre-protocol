@@ -2,7 +2,7 @@
 
 ### Official Reference Implementation
 
-[![DOI](https://zenodo.org/badge/DOI/TU_DOI_AQUÍ.svg)](https://doi.org/TU_DOI_AQUÍ)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18521109.svg)](https://doi.org/10.5281/zenodo.18521109)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This repository contains the core algorithms for the Hybrid CRE protocol, including the **Systemic Impact Score (SIS)** and the **Alignment Traceability Code (ATC)**.
