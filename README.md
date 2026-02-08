@@ -1,4 +1,4 @@
-# Hybrid Constitutional Reflective Equilibrium (Hybrid CRE) ⚖️🤖
+# Hybrid Computational Reflective Equilibrium (Hybrid CRE) ⚖️🤖
 
 ### Official Reference Implementation 
 
