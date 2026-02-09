@@ -23,15 +23,15 @@ Hybrid CRE is composed of three core institutional modules:
 
 ### **SIS — Systemic Impact Score**
 Evaluates the **cross-domain systemic consequences** of candidate decisions.  
-SIS models how actions propagate across institutional, social, and regulatory layers.
+SIS models how actions propagate across institutional, social, and regulatory layers. it is part of ATC.
 
 ### **ATC — Alignment Traceability Code**
-Maintains the **decision lineage** and justificatory chain.  
+the token that maintains the **decision lineage** and justificatory chain.  
 ATC ensures every output can be traced to procedural, normative, and jurisdictional inputs.
 
 ### **Habeas Log**
 A procedural safeguard enabling **jurisdictional review** of automated decisions.  
-It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution.
+It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution. 
 
 Together, these modules form a **computational analogue of checks and balances**.
 
