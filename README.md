@@ -82,13 +82,17 @@ While this implementation is released under the **Apache License 2.0**, the conc
 
 ## 📄 License
 
-This reference implementation is distributed under the **Apache License 2.0**, which includes:
+This reference implementation is distributed under a **dual licensing model**:
 
-- Open use and modification rights  
-- Patent protection provisions  
-- Copyright preservation  
+- **Academic and Non-Commercial Use**:  
+  The code is freely available for research, educational, and non-commercial purposes.  
+  Users may copy, modify, and redistribute the work under these conditions, provided proper attribution is given.  
 
-Full license text: https://opensource.org/licenses/Apache-2.0
+- **Commercial Use**:  
+  Any use of this code in commercial products, services, or platforms requires **explicit written authorization from the author**.  
+  Interested parties must contact the author to negotiate a separate commercial license.  
+
+This approach ensures open diffusion for academic and research communities, while preserving the author’s rights to negotiate terms for commercial exploitation.
 
 ---
 
