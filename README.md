@@ -76,7 +76,7 @@ The system operationalizes a **computational form of constitutional order**.
 ## ⚖️ Intellectual and Research Notice
 
 The Hybrid CRE architecture constitutes an original computational constitutional framework developed by **Gaston Rey**.  
-While this implementation is released under the **Apache License 2.0**, the conceptual architecture, terminology, and institutional modeling structure form part of an ongoing research program in computational governance and AI constitutionalism.
+While this implementation is released under the conceptual architecture, terminology, and institutional modeling structure form part of an ongoing research program in computational governance and AI constitutionalism.
 
 ---
 
