@@ -2,7 +2,6 @@
 ### Official Reference Implementation
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18523702.svg)](https://doi.org/10.5281/zenodo.18523702)  
-[![License](https://img.shields.io/badge/License]
 
 ---
 
