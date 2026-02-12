@@ -82,19 +82,9 @@ This guarantees that deadlocks are resolved politically, not computationally.
 
 **3. Habeas Log – Traceability of Sovereignty**
 
-Every invocation of σ is immutably recorded in the Habeas Log.
+Every invocation of σ is immutably recorded in the Habeas Log. Each entry binds:
 
-Each entry binds:
-
-Decision context
-
-SIS score
-
-System entropy (S)
-
-Residual agency (A)
-
-Human signature seal
+Decision context SIS score - System entropy (S) - Residual agency (A) - Human signature seal
 
 Timestamp
 
@@ -104,20 +94,15 @@ This creates a chain of responsibility that cannot be silently absorbed by the m
 
 σ must be generated outside the AI’s computational jurisdiction.
 
-The signature must originate from an out-of-band channel:
+The signature must originate from an out-of-band channel: Hardware cryptographic token. Air-gapped signer
 
-Hardware cryptographic token
-
-Air-gapped signer
-
-External sovereignty device
-Technical Module
+External sovereignty device Technical Module
 
 Implementation is provided in:
 
-sovereignty_layer.py
-
+sovereignty_layer.py 
 If the AI can generate σ, sovereignty collapses.
+
 ---
 
 ## 🎯 Purpose of this Repository
