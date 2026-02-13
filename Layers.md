@@ -24,10 +24,10 @@ The architecture is composed of four primary components:
             |        CRE Core      |
             +----------^-----------+
                        |
-+----------------------+----------------+
++----------------------^----------------+
 |                ATC Controller         | |                                       |
-| (Threshold Detection & Event Routing)|. |                                       | 
-+----------------------+----------------+
+| (Threshold Detection & Event Routing) | |.                                      | 
++----------------------^----------------+
                        |
             +----------v-----------+
             |        AI Core       |
