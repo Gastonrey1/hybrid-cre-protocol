@@ -16,7 +16,7 @@ The architecture is composed of four primary components:
 ---
 
 ## 2. Layered Model
-+----------------------+
+            ------------------------
             |      Human Bridge    |
             +----------^-----------+
                        |
@@ -24,16 +24,16 @@ The architecture is composed of four primary components:
             |        CRE Core      |
             +----------^-----------+
                        |
-+----------------------+----------------------+
-|                ATC Controller               |
++----------------------+------------------+
+|                ATC Controller           |
 |  (Threshold Detection & Event Routing)      |
-+----------------------+----------------------+
++----------------------+------------------
                        |
             +----------v-----------+
             |        AI Core       |
             |     (Inference)      |
-            +----------------------+
-            ## 3. Event Flow
+            +----------------------
+## 3. Event Flow
 
 1. AI Core generates decision output.
 2. Event metadata is evaluated by ATC.
