@@ -24,15 +24,16 @@ The architecture is composed of four primary components:
             |        CRE Core      |
             +----------^-----------+
                        |
-+----------------------+------------------+
-|                ATC Controller           |
-|  (Threshold Detection & Event Routing)      |
-+----------------------+------------------
++----------------------+----------------+
+|                ATC Controller         | |                                       |
+| (Threshold Detection & Event Routing)|. |                                       | 
++----------------------+----------------+
                        |
             +----------v-----------+
             |        AI Core       |
             |     (Inference)      |
-            +----------------------
+            +----------------------+
+            
 ## 3. Event Flow
 
 1. AI Core generates decision output.
