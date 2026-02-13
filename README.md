@@ -42,11 +42,30 @@ The protocol utilizes a **Normalized Anti-Gaming Metric ($S_{norm}$)** to detect
 
 
 ### **Habeas Log**
-A procedural safeguard enabling **jurisdictional review** of automated decisions.  
-It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution. 
-It is a proposed as a "4th generation Human Right".
+## 📜 The Habeas Log: Jurisdictional Traceability
 
-Together, these modules form a **computational analogue of checks and balances**.
+The **Habeas Log** is the protocol’s immutable record-keeping layer. It is proposed as a **"4th Generation Human Right"**: the right to a transparent, non-falsifiable record of automated decisions.
+
+Technically, it functions as a **Computational Analogue of Checks and Balances**:
+
+* **Immutable Binding:** Every AI trajectory is cryptographically bound to its **$S_{norm}$** score and the **ATC Token** that authorized it.
+* **Jurisdictional Review:** Allows for post-hoc auditing where human institutions can verify if the AI operated within its constitutional boundaries.
+* **Integrity Chain:** Uses hash-linking to ensure that once a decision is logged, it cannot be altered or deleted by the AI Core.
+
+### Reference Implementation Structure (`habeas_log.py`)
+```python
+# Conceptual structure of a Habeas Entry
+{
+    "jurisdictional_id": "UUID-V4",
+    "trajectory_hash": "SHA256",
+    "metrics": {
+        "sis_impact": 0.45,
+        "s_norm_drift": 0.12
+    },
+    "authorization": "ATC_SIGNED_JWT",
+    "human_signature": "SIGMA_V_KEY", # Optional unless SIS > Tc
+    "timestamp": "ISO-8601"
+}
 
 ## ⚖️ The Sovereignty Layer: The Sigma Signature ($\sigma$)
 
