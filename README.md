@@ -193,7 +193,10 @@ Hybrid CRE is part of a broader effort to develop **constitutional architectures
 This work proposes a shift from **optimization-based alignment** to **institutionally structured decision systems**.
 
 ---
-**Technological Justification**
-Language: Python was selected for this reference implementation due to its status as the lingua franca of the AI research community, ensuring maximum readability and auditability.
-Security: The protocol uses Industry-Standard Cryptography (JWT/JWS). By decoupling jurisdictional validation from the AI’s inference process, we ensure that safety checks do not compromise system performance.
-Scalability: This architecture is designed to be deployed within Trusted Execution Environments (TEE), providing a hardware-level guarantee that the "Constitutional Brake" cannot be bypassed by the model itself.
+## ⚙️ Technological Justification**
+
+**Language**: Python was selected for this reference implementation due to its status as the lingua franca of the AI research community, ensuring maximum readability and auditability.
+
+**Security**: The protocol uses Industry-Standard Cryptography (JWT/JWS). By decoupling jurisdictional validation from the AI’s inference process, we ensure that safety checks do not compromise system performance.
+
+**Scalability**: This architecture is designed to be deployed within Trusted Execution Environments (TEE), providing a hardware-level guarantee that the "Constitutional Brake" cannot be bypassed by the model itself.
