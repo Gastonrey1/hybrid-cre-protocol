@@ -1,7 +1,7 @@
 # Hybrid Computational Reflective Equilibrium (Hybrid CRE) ⚖️🤖  
 ### Official Reference Implementation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18523702.svg)](https://doi.org/10.5281/zenodo.18523702)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18521108.svg)](https://doi.org/10.5281/zenodo.18523702)  
 
 ---
 
@@ -104,7 +104,7 @@ This repository exists to:
 
 The theoretical and philosophical foundations of Hybrid CRE are detailed in:
 
-- **White Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.18523702  
+- **White Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.18521108  
 - **Book:** *Algorithmic Constitutionalism* — Rey, G. (Forthcoming 2026)
 
 This repository contains the **engineering counterpart** of that theoretical framework.
