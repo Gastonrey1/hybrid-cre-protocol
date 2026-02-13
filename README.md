@@ -39,11 +39,12 @@ For a detailed technical breakdown, see the [Full Architecture Documentation](do
 The protocol utilizes a **Normalized Anti-Gaming Metric ($S_{norm}$)** to detect and neutralize "Reward-Hacking" or "Constitutional Drift."
 * **Function:** It measures the divergence between the AI's proposed trajectory and the Constitutional Baseline.
 * **Impact:** If $S_{norm}$ exceeds established limits, the **ATC** automatically revokes the execution token and triggers a **Human Bridge** request.
-* 
+
 
 ### **Habeas Log**
 A procedural safeguard enabling **jurisdictional review** of automated decisions.  
-It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution. It is a proposed as a 4th generation Human Right.
+It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution. 
+It is a proposed as a "4th generation Human Right".
 
 Together, these modules form a **computational analogue of checks and balances**.
 
