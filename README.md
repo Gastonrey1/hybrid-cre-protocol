@@ -193,10 +193,27 @@ Hybrid CRE is part of a broader effort to develop **constitutional architectures
 This work proposes a shift from **optimization-based alignment** to **institutionally structured decision systems**.
 
 ---
-## ⚙️ Technological Justification**
 
-**Language**: Python was selected for this reference implementation due to its status as the lingua franca of the AI research community, ensuring maximum readability and auditability.
+## Technical Rationale & Performance
+* **Language:** Python was selected for this reference implementation due to its status as the *lingua franca* of the AI research community, ensuring maximum readability and auditability.
+* **Security:** The protocol uses **Industry-Standard Cryptography** (JWT/JWS). By decoupling jurisdictional validation from the AI’s inference process, we ensure that safety checks do not compromise system performance.
+* **Integrity:** This architecture is designed to be deployed within **Trusted Execution Environments (TEE)**, providing a hardware-level guarantee that the "Constitutional Brake" cannot be bypassed.
 
-**Security**: The protocol uses Industry-Standard Cryptography (JWT/JWS). By decoupling jurisdictional validation from the AI’s inference process, we ensure that safety checks do not compromise system performance.
+## Development Roadmap 
 
-**Scalability**: This architecture is designed to be deployed within Trusted Execution Environments (TEE), providing a hardware-level guarantee that the "Constitutional Brake" cannot be bypassed by the model itself.
+### Phase 1: Jurisdictional Foundations (Current 2026)
+* [x] Formalize the **Hybrid CRE Protocol** white paper.
+* [x] Design the **ATC Token** cryptographic orchestration logic.
+* [x] Implement the **Habeas Log** immutable record structure.
+
+### Phase 2: Deliberative Depth (Q2)
+* [ ] Development of the **Coherence Matrix** for automated normative conflict detection.
+* [ ] Integration of the **SIS (Systemic Impact Score)** with real-world LLM telemetry.
+* [ ] Formal verification of the **Constitutional Paralysis** trigger points.
+
+### Phase 3: Scalability & Sovereignty (Q3)
+* [ ] Prototype for **Multi-Agent Jurisdictional Conflict Resolution**.
+* [ ] Deployment of the **Sovereignty Layer** in a secure hardware enclave (TEE).
+* [ ] Implementation of the **Sigma Signature ($\sigma$)** hardware-key bridge.
+
+---
