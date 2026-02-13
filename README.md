@@ -65,7 +65,7 @@ Technically, it functions as a **Computational Analogue of Checks and Balances**
     "authorization": "ATC_SIGNED_JWT",
     "human_signature": "SIGMA_V_KEY", # Optional unless SIS > Tc
     "timestamp": "ISO-8601"}
-
+```
 ## ⚖️ The Sovereignty Layer: The Sigma Signature ($\sigma$)
 
 The **Sigma Signature ($\sigma$)** is not an identity token; it is a **Sovereignty Validator**. It represents the irreducible **Residual Human Agency ($A$)** required to break algorithmic deadlocks.
