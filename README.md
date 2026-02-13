@@ -42,7 +42,7 @@ The protocol utilizes a **Normalized Anti-Gaming Metric ($S_{norm}$)** to detect
 
 
 ### **Habeas Log**
-## 📜 The Habeas Log: Jurisdictional Traceability
+## 📜 The Jurisdictional Traceability
 
 The **Habeas Log** is the protocol’s immutable record-keeping layer. It is proposed as a **"4th Generation Human Right"**: the right to a transparent, non-falsifiable record of automated decisions.
 
