@@ -1,4 +1,4 @@
-##Constitutional-Aware Architecture##
+## The Architecture LAYERS
 
 ## 1. System Overview
 
