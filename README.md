@@ -89,6 +89,22 @@ The **Sigma Signature ($\sigma$)** is not an identity token; it is a **Sovereign
 
 ---
 
+## 🌏 Hybrid Flow (HF): 跨政治体制的通用治理模型
+
+本项目的核心架构 (ATC, SIS, Habeas Log) 具有**地缘政治中立性**。Hybrid Flow (HF) 是针对强调“系统稳定性”与“动态平衡”的治理环境而设计的适配模型。
+
+### 核心理念 (核心逻辑)
+* **从权利到稳定 (From Rights to Stability):** 在 HF 模型中，ATC 的触发指标从个人权利转向**系统熵 (Systemic Entropy)** 和**流程稳态 (Flow Homeostasis)**。
+* **技术同构性 (Technical Isomorphism):** 无论底层政治逻辑如何，技术安全架构是相同的。该模型证明了宪制级 AI 治理可以超越意识形态差异。
+* **主权保护 (Sovereignty Protection):** HF 确保 AI 的决策路径始终从属于人类机构的实时监督。
+
+> **"Hybrid Flow 证明了宪制 AI 治理不是一种特定地区的教条，而是一种管理非人类决策权力的全球性安全模式。"**
+
+> **Full Analysis:** The complete theoretical derivation of the Hybrid Flow for Chinese contexts can be found in **Chapter 10** of the official White Paper.
+
+👉 [**Access Chapter 10 (PDF)**](./paper/Hybrid-Flow-China-Context.pdf)
+---
+
 ## 🎯 Purpose of this Repository
 
 This repository exists to:
