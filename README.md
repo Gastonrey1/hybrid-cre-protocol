@@ -24,7 +24,7 @@ Hybrid CRE is composed of three core institutional modules:
 Evaluates the **cross-domain systemic consequences** of candidate decisions.  
 SIS models how actions propagate across institutional, social, and regulatory layers. it is part of ATC.
 
-### The ATC, The Alignment Trazability Code: High-Performance Governance Controller
+### The ATC, The Alignment Traceability Code: High-Performance Governance Controller
 
 The **ATC (Anti-Gaming & Transition Controller)** is implemented as a lightweight, asynchronous governance controller operating outside the core inference loop.
 
@@ -42,74 +42,26 @@ It functions as a constitutional oversight layer, allowing institutional validat
 
 Together, these modules form a **computational analogue of checks and balances**.
 
-### **The Sovereignty Layer (σ)**
-Conceptual Foundation
+## ⚖️ The Sovereignty Layer: The Sigma Signature ($\sigma$)
 
-The Human Signature (σ) is not an authentication credential.
-It is not an identity token.
+The **Sigma Signature ($\sigma$)** is not an identity token; it is a **Sovereignty Validator**. It represents the irreducible **Residual Human Agency ($A$)** required to break algorithmic deadlocks.
 
-It is a sovereignty validator.
+<details>
+<summary><b>Click to expand: Core Principles of $\sigma$</b></summary>
 
-Within this architecture, σ represents Residual Human Agency (A) —
-the minimal but irreducible jurisdiction that must remain external to the AI system.
+* **Sovereignty Anchor:** Prevents the AI from collapsing into a closed technocratic loop. If the AI can decide everything, sovereignty is lost.
+* **Paralysis Breaker:** When the CRE Core enters **Constitutional Paralysis** (normative tie), only $\sigma$ can break the symmetry.
+* **Anti-Coercion:** $\sigma$ must be generated via out-of-band hardware (air-gapped or physical security keys). If the AI can simulate $\sigma$, the system fails.
+</details>
 
-σ acts as a reality anchor, preventing the system from collapsing into a closed technocratic loop.
+### Technical Implementation
+| Feature | Description | Mechanism |
+| :--- | :--- | :--- |
+| **Trigger** | SIS > Threshold ($T_c$) | Automated Circuit Breaker |
+| **Logic** | Hardware Interrupt | `force_resolution(human_sig)` |
+| **Traceability** | Habeas Log Binding | Immutable Cryptographic Link |
 
-If the system can fully decide without external interruption, sovereignty disappears.
-
-σ ensures that never happens.
-
-### **1. Sigma as a Sovereignty Token (Not Identity)**
-
-The signature does not validate who signs.
-It validates that a human authority consciously assumes responsibility at a jurisdictional boundary where AI competence ends.
-
-High-impact decisions (e.g., SIS > 0.7) require σ before execution.
-
-Without σ:
-
-Execution is blocked
-
-The system remains in pending state
-
-This transforms sovereignty from philosophy into execution control.
-
-**2. Sigma as a Paralysis Breaker**
-
-When the CRE Core enters Constitutional Paralysis (logical symmetry between competing principles), algorithmic resolution is forbidden.
-
-Only σ may break the symmetry.
-
-Technically, σ functions as a hardware interrupt:
-
-If system_state == PARALYSIS
-
-Only force_resolution(human_signature, conflict_id) may write to the decision log
-
-This guarantees that deadlocks are resolved politically, not computationally.
-
-**3. Habeas Log – Traceability of Sovereignty**
-
-Every invocation of σ is immutably recorded in the Habeas Log. Each entry binds:
-
-Decision context SIS score - System entropy (S) - Residual agency (A) - Human signature seal
-
-Timestamp
-
-This creates a chain of responsibility that cannot be silently absorbed by the machine.
-
-**4. Anti-Coercion Requirement**
-
-σ must be generated outside the AI’s computational jurisdiction.
-
-The signature must originate from an out-of-band channel: Hardware cryptographic token. Air-gapped signer
-
-External sovereignty device Technical Module
-
-Implementation is provided in:
-
-sovereignty_layer.py 
-If the AI can generate σ, sovereignty collapses.
+> **"Sovereignty is not a feeling; it is an execution control."**
 
 ---
 
