@@ -24,13 +24,17 @@ Hybrid CRE is composed of three core institutional modules:
 Evaluates the **cross-domain systemic consequences** of candidate decisions.  
 SIS models how actions propagate across institutional, social, and regulatory layers. it is part of ATC.
 
-### **ATC — Alignment Traceability Code**
-the token that maintains the **decision lineage** and justificatory chain.  
-ATC ensures every output can be traced to procedural, normative, and jurisdictional inputs.
+### The ATC Token: High-Performance Orchestration
+To ensure technical viability in high-speed AI environments, the **ATC (Anti-Gaming & Transition Controller)** is designed as a **High-Performance Orchestrator** rather than a monolithic process.
+
+* **Asynchronous Processing:** High-impact logging (Habeas Log) and SIS calculations operate in parallel, ensuring minimal latency for the AI Core.
+* **Modular Delegation:** The ATC acts as a "Jurisdictional Router." It resolves low-impact decisions instantly and only invokes the more complex **CRE Core** or **Human Bridge** when specific constitutional thresholds ($T_c$) are met.
+* **Implementation Path:** The protocol is compatible with **Trusted Execution Environments (TEE)** and Hardware Security Modules (HSM), ensuring that the "Constitutional Brake" remains isolated and tamper-proof.
+
 
 ### **Habeas Log**
 A procedural safeguard enabling **jurisdictional review** of automated decisions.  
-It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution. 
+It functions as a constitutional oversight layer, allowing institutional validation and conflict resolution. It is a proposed as a 4th generation Human Right.
 
 Together, these modules form a **computational analogue of checks and balances**.
 
