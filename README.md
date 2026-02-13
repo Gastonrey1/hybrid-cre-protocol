@@ -64,8 +64,7 @@ Technically, it functions as a **Computational Analogue of Checks and Balances**
     },
     "authorization": "ATC_SIGNED_JWT",
     "human_signature": "SIGMA_V_KEY", # Optional unless SIS > Tc
-    "timestamp": "ISO-8601"
-}
+    "timestamp": "ISO-8601"}
 
 ## ⚖️ The Sovereignty Layer: The Sigma Signature ($\sigma$)
 
