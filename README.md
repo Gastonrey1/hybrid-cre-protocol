@@ -24,13 +24,17 @@ Hybrid CRE is composed of three core institutional modules:
 Evaluates the **cross-domain systemic consequences** of candidate decisions.  
 SIS models how actions propagate across institutional, social, and regulatory layers. it is part of ATC.
 
-### The ATC Token: High-Performance Orchestration
-To ensure technical viability in high-speed AI environments, the **ATC (Anti-Gaming & Transition Controller)** is designed as a **High-Performance Orchestrator** rather than a monolithic process.
+### The ATC, The Alignment Trazability Code: High-Performance Governance Controller
 
-* **Asynchronous Processing:** High-impact logging (Habeas Log) and SIS calculations operate in parallel, ensuring minimal latency for the AI Core.
-* **Modular Delegation:** The ATC acts as a "Jurisdictional Router." It resolves low-impact decisions instantly and only invokes the more complex **CRE Core** or **Human Bridge** when specific constitutional thresholds ($T_c$) are met.
-* **Implementation Path:** The protocol is compatible with **Trusted Execution Environments (TEE)** and Hardware Security Modules (HSM), ensuring that the "Constitutional Brake" remains isolated and tamper-proof.
+The **ATC (Anti-Gaming & Transition Controller)** is implemented as a lightweight, asynchronous governance controller operating outside the core inference loop.
 
+- **Non-Blocking Architecture:** Model inference remains unaffected. The ATC intercepts only threshold-crossing events ($T_c$), preserving sub-millisecond execution for standard operations.
+- **Asynchronous Oversight:** Habeas Log recording and SIS calculations execute in parallel, preventing latency accumulation.
+- **Jurisdictional Routing:** Low-impact decisions resolve locally. Only constitutionally significant events are escalated to the CRE Core or Human Bridge.
+- **Secure Isolation:** The controller is compatible with Trusted Execution Environments (TEE) and Hardware Security Modules (HSM), ensuring tamper-resistant enforcement of constitutional constraints.
+- **Competitive Compatibility:** The architecture does not require slowing model capability development and remains viable in high-speed AI deployment environments.
+
+For a detailed technical breakdown, see the [Full Architecture Documentation](docs/architecture.md).
 
 ### **Habeas Log**
 A procedural safeguard enabling **jurisdictional review** of automated decisions.  
