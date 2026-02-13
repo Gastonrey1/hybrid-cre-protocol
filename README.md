@@ -102,7 +102,7 @@ The **Sigma Signature ($\sigma$)** is not an identity token; it is a **Sovereign
 
 > **Full Analysis:** The complete theoretical derivation of the Hybrid Flow for Chinese contexts can be found in **Chapter 10** of the official White Paper.
 
-👉 [**Access Chapter 10 (PDF)**](./paper/Hybrid-Flow-China-Context)
+👉 [**Access Chapter 10 (PDF)**](./Hybrid_Flow_China_Context.pdf)
 ---
 
 ## 🎯 Purpose of this Repository
