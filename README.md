@@ -35,6 +35,11 @@ The **ATC (Anti-Gaming & Transition Controller)** is implemented as a lightweigh
 - **Competitive Compatibility:** The architecture does not require slowing model capability development and remains viable in high-speed AI deployment environments.
 
 For a detailed technical breakdown, see the [Full Architecture Documentation](docs/architecture.md).
+### 🛡️ Anti-Gaming Mechanism: $S_{norm}$
+The protocol utilizes a **Normalized Anti-Gaming Metric ($S_{norm}$)** to detect and neutralize "Reward-Hacking" or "Constitutional Drift."
+* **Function:** It measures the divergence between the AI's proposed trajectory and the Constitutional Baseline.
+* **Impact:** If $S_{norm}$ exceeds established limits, the **ATC** automatically revokes the execution token and triggers a **Human Bridge** request.
+* 
 
 ### **Habeas Log**
 A procedural safeguard enabling **jurisdictional review** of automated decisions.  
